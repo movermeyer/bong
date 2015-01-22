@@ -1,3 +1,8 @@
+from .parse_args import parse_args
+from .run import run
+import sys
+
 def main():
-    print('Hello, world!')
+    settings = parse_args(sys.argv[1:])
+    run(settings)
 
