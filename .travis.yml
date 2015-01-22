@@ -1,0 +1,7 @@
+language: python
+sudo: false
+python:
+  - '3.4'
+install: python setup.py develop
+script: python setup.py nosetests
+
