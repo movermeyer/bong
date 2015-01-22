@@ -22,7 +22,7 @@ setup(name='bong',
       ],
       packages=find_packages(),
       classifiers=[
-          'Development Status :: 3 - Alpha',
+          'Development Status :: 5 - Production/Stable',
           'Environment :: X11 Applications :: Gnome',
           'License :: OSI Approved :: MIT License',
           'Operating System :: POSIX',
