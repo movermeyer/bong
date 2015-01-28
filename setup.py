@@ -24,6 +24,7 @@ setup(name='bong',
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Environment :: X11 Applications :: Gnome',
+          'Environment :: MacOS X',
           'License :: OSI Approved :: MIT License',
           'Operating System :: POSIX',
           'Programming Language :: Python :: 3.4',
