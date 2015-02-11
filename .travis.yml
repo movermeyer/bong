@@ -13,3 +13,4 @@ deploy:
     tags: true
     repo: prophile/bong
     all_branches: true
+    distributions: "sdist bdist_wheel"
