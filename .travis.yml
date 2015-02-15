@@ -1,4 +1,5 @@
 language: python
+sudo: false
 python:
 - '3.4'
 install: python setup.py develop
@@ -13,4 +14,5 @@ deploy:
     tags: true
     repo: prophile/bong
     all_branches: true
-    distributions: "sdist bdist_wheel"
+  distributions: "sdist bdist_wheel"
+  skip_cleanup: true
