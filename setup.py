@@ -18,7 +18,9 @@ setup(name='bong',
           'bong=bong.cli:main'
       },
       setup_requires=[
-          'nose >=1,<2'
+          'nose >=1,<2',
+          'Sphinx >=1.2, <2',
+          'sphinx-argparse >=0.1.13, <0.2'
       ],
       packages=find_packages(),
       classifiers=[
