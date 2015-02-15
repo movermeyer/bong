@@ -30,4 +30,3 @@ setup(name='bong',
           'Programming Language :: Python :: 3.4',
           'Topic :: Office/Business'
       ])
-
