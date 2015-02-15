@@ -1,10 +1,12 @@
 language: python
 python:
 - '3.4'
+sudo: false
 install: python setup.py develop
 script: python setup.py nosetests
 deploy:
   provider: pypi
+  edge: true
   user: alynn
   password:
     secure: WORxc7Mk4+Hif5OALufhhXyB8vT1GhlFfs+iAQ2efe3bpbmPymw4m2NmbVerpMBXoJD1STqUmffq69eLt6QsmsJt+Ohsqoc8jCxoK1iz2p8qd33/QgX/EXZA1Q2tXtlGg24qGavcjX4wF4HwmeiBZGsRqpoaSL6/jttoWNRyPSk=
