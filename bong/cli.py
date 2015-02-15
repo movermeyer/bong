@@ -5,4 +5,7 @@ import sys
 
 def main():
     settings = parse_args(sys.argv[1:])
-    run(settings)
+    try:
+        run(settings)
+    except KeyboardInterrupt:
+        pass
